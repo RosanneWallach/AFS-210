@@ -1,4 +1,6 @@
 import random
+# Time complexity is: O(n)
+# Because we have one loop over the list of size n
 
 def shuffle(lst):
     for i in range(len(lst)):
